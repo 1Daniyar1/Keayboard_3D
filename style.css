@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh; 
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A0153E;
+}
+
+.left-side {
+    background-color: #FF204E;
+    height: 100%;
+    overflow-y: scroll; /* Ensure scrolling is enabled */
+    padding-left: 50px;
+    padding-right: 50px;
+    /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+    scrollbar-width: none; /* Firefox */
+}
+
+.left-side::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Optional: just to avoid a flash of white on scroll bar track */
+}
+
+.stage-1 {
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #00224D;
+}
+
+.paragraph {
+    margin-top: 70px;
+    text-align: left;
+    color: #00224D;
+    font-size: 2rem;
+}
+
+.stage-2 {
+    height: 100vh;
+}
+
+.stage-3{
+    height: 100vh;
+}
+
+.reviews-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.review p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.author {
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#customer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #00224D;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    #canvas3d {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="left-side">
+
+      <div class="stage-1">
+
+        <header id="header">Welcome to Our Interactive Keyboard Site</header>
+        <ul class="paragraph">
+          <li>This interactive keyboard is designed for gamers and professionals alike. With customizable keys and ergonomic design, it enhances your gaming experience and productivity.</li>
+          <br>
+          <br>
+          <li>This model showcases a compact, interactive keyboard featuring six keys arranged in a 2x3 grid. The keys are labeled with the letters Q, W, E, A, S, and D, with a distinctive color 
+            scheme: Q and E are white, while the remaining keys are red. The keys are housed in a teal casing, giving the keyboard a vibrant and playful appearance. This layout is commonly 
+            associated with gaming, where these specific keys are often used for movement and interaction controls.
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="stage-2">
+        <header id="feature">Features</header>
+        <ul class="paragraph">
+          <li>Customizable RGB lighting</li>
+          <li>Ergonomic design for comfort</li>
+          <li>Durable mechanical switches</li>
+          <li>Full anti-ghosting capabilities</li>
+          <li>Programmable macro keys</li>
+        </ul>
+
+        <br>
+
+        <header id="tech">Technical Specifications</header>
+        <ul class="paragraph">
+          <li>Switch Type: Mechanical</li>
+          <li>Key Rollover: Full NKRO</li>
+          <li>Backlighting: RGB</li>
+          <li>Connectivity: USB-C</li>
+          <li>Dimensions: 44 x 14 x 4 cm</li>
+        </ul>
+      </div>
+
+      <div class="stage-3">
+        <div class="reviews-container">
+          <header id="customer">Customer Reviews</header>
+          <div class="review">
+              <p>"The best keyboard I've ever used! The customization options are endless, and the build quality is top-notch."</p>
+              <p class="author">Alex J.</p>
+          </div>
+          <div class="review">
+              <p>"Perfect for gaming! The response time is incredible, and the RGB lighting looks amazing."</p>
+              <p class="author">Jamie L.</p>
+          </div>
+
+          <br>
+          <header id="contact">Contact Us</header>
+          <p class="paragraph">Contact Information: If you have any questions or need support, feel free to contact us at <a href="">support@keyboardcompany.com</a>.</p>
+      </div>
+
+      </div>
+
+    </div>
+
+      <div class="right-side">
+          <canvas id="canvas3d"></canvas>
+      </div>
+
+  </div>
+  
+    <script type="module" src="main.js"></script>
+</body>
+</html>
